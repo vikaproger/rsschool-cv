@@ -2,7 +2,9 @@
 
 ### Contacts
 __Email__: vis22chu@gmail.com
+
 __Phone__: 89277547455
+
 [__GitHub__](https://github.com/vikaproger)  
 ### Some information
 I am a 4th year student at Samara University as a programmer. I like to learn and improve my skills. 
@@ -27,6 +29,7 @@ def runge_cutta(h):
 * DailyOrganizer - Study Project
 * Simple image comprassion - Study Project
 * Thermal simulation in an infrared laser - Study Project
+
 ### Education
 Samara University
 ### English

@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<html>
-   <head>
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viktoriia Chuvatkina | rsschool-cv</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <h1 id = 'name'>Viktoriia Chuvatkina</h1>
-    <h3>Contacts</h3>
-__Email__: vis22chu@gmail.com
-
-__Phone__: 89277547455
-
-[__GitHub__](https://github.com/vikaproger)  
-### Some information
-I am a 4th year student at Samara University as a programmer. I like to learn and improve my skills. 
-### Skills
-C++, Java, JS, Python, SQL, 1C, Assembler, CSS, HTML, Octave, MatLab, e.t.c
-### Code samples
-```python
-def runge_cutta(h):
-    xs = []
-    ys = []
-    xs.append(x0)
-    ys.append(y0)
-    for i, (x, y) in enumerate(zip(xs, ys)):
-        delta = ni(x, y, h)
-        if x+h>=b:
-            break
-        xs.append(x+h)
-        ys.append(y+delta)
-    return xs,ys
-```
-### Projects
-* DailyOrganizer - Study Project
-* Simple image comprassion - Study Project
-* Thermal simulation in an infrared laser - Study Project
-
-### Education
-Samara University
-### English
-Intermediate
+    <link href='https://fonts.googleapis.com/css?family=Gothic A1' rel='stylesheet'>
+</head>
+<body>
+    <!--<th class="pic" rowspan="2"><img src="cv.jpg" alt="CV pic"></th>-->
+    
+    <img src="cv.jpg" alt="CV pic"> 
+    <div class = "intro">
+    <div id ="name"> 
+                  
+        <h2 > VIKTORIIA<br> CHUVATKINA</h2>
+        
+    </div>
+    <div class = "info">
+        <h3>Contacts</h3>
+        <p><b>Email:</b> vis22chu@gmail.com</p>
+        <p><b>Phone:</b> 89277547455 </p>
+        <p><a href="https://github.com/vikaproger"><b>GitHub</b></a></p>
+    </div>
+    </div>
+    <table>
+        
+        <tbody>
+            <tr>
+                <td class="code">
+                    <h3>Code samples</h3>
+                    <pre><code>def runge_cutta(h):
+xs = []
+ys = []
+xs.append(x0)
+ys.append(y0)
+for i, (x, y) in enumerate(zip(xs, ys)):
+    delta = ni(x, y, h)
+    if x+h>=b:
+        break
+    xs.append(x+h)
+    ys.append(y+delta)
+return xs,ys </code></pre>
+                </td>
+                <td class = "about">
+                    <h3>Some information</h3>
+                    <p>I am a 4th year student at Samara University as a programmer. I like to learn and improve my skills.</p> 
+                    <h3>Skills</h3>
+                    <p>C++, Java, JS, Python, SQL, 1C, Assembler, CSS, HTML, Octave, MatLab, e.t.c</p>  
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>DailyOrganizer - Study Project</li>
+                        <li>Simple image comprassion - Study Project</li>
+                        <li>Thermal simulation in an infrared laser - Study Project</li>
+                    </ul>
+                    <h3>Education</h3>
+                    <p>Samara University</p>
+                    <h3>English</h3>
+                    <p>Intermediate</p>
+                </td>
+            </tr>
+    </table>
+</body>
 </html>

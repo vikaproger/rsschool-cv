@@ -1,0 +1,68 @@
+
+body {
+    width: 100%;
+    margin: 0%;
+    font-family: 'Gothic A1';
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border: none;
+}
+
+
+.intro {
+    width: 73%;
+    height: auto;
+    margin: 0%;
+    display: inline-block;
+    border: none;
+    padding: 0 0 0 0;
+    text-align: left;
+    font-family: 'Gothic A1';
+}
+#name {
+    background-color: #00007f;
+    color: #FFFFFF;
+    font-size: 50px;
+    height: auto;
+    padding: 2.5%;
+    
+    
+}
+h2{
+    
+}
+.about {
+    width: 73%;
+    padding: 0 0 0 2.5%
+}
+.info {
+    background-color: #FFFFFF;
+    
+    color: #000000;
+    height: auto;
+    padding: 0 0 0 3%;
+}
+img {
+    vertical-align: top;
+    border: none;
+    margin: 0%;
+}
+h3 {
+    font-size: 20px;
+}
+.code {
+    
+    vertical-align: top;
+    border: none;
+    padding: 0 0 0 1%;
+}
+pre {
+    background-color: #f8f8f8;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
